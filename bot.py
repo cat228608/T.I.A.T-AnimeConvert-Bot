@@ -55,7 +55,7 @@ async def get_photo(message):
 while True:
     try:
         if __name__ == "__main__":
-            executor.start_polling(dp, skip_updates=True)
+            executor.start_polling(dp, skip_updates=True) #Аня я тебя люблю, все мои проекты написаны благодаря тебе! Ты мое вдохновение
         break
     except:
         print("Ошика.\nОжидаем перезапуск 20 сек...")
